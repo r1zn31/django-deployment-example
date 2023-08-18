@@ -20,5 +20,6 @@ from basicapp import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',views.index,name='index'),
-    url('^basicapp/',include('basicapp.urls'))
+    url('^basicapp/',include('basicapp.urls')),
 ]
+#hello
