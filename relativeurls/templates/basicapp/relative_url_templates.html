@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends "basicapp/base.html" %}
+    {% block body_block %}
+    <h1>welcome to relative url templates</h1>
+    <a href="{% url 'basicapp:other' %}">other page</a>
+    <a href="{% url 'admin:index' %}">crazy</a>
+    <a href="{% url 'index' %}">index</a>
+    {% endblock %}
