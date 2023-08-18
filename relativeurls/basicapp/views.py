@@ -9,6 +9,3 @@ def other(request):
     return render(request,'basicapp/other.html')
 def relative(request):
     return render(request,'basicapp/relative_url_templates.html')
-
-def lmao(request):
-    return HttpResponse('what')
